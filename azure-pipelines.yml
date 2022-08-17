@@ -60,7 +60,3 @@ steps:
     artifactFeed: '<Azure Artifacts feed name>'
     pythonUploadServiceConnection: '<twine service connection from external organization>'
     
-- script: |
-   twine upload -r "<feed or service connection name>" --config-file $(PYPIRC_PATH) <package path/files>
-
-    
